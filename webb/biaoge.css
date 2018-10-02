@@ -1,0 +1,158 @@
+
+  body {
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538313932376&di=36fbba0f9ceea768d74a05b731c9ebb9&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F6%2F5721db56f35a8.jpg");
+    margin:0;
+    padding:0;
+    }
+.one {
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-width:2px;
+    height:201px;
+    width:200px;
+    padding:0;
+    margin:0;}
+.one2{
+    position:relative;
+    top:95px;
+    left:25px;
+}
+.two {
+    font-size:20px;
+    text-align:center;
+    padding:0;
+    margin:0;}
+.two2 {
+    position:relative;
+    top: -85px;
+    left:-575px;}  
+.three {
+    font-size:80px;
+    position:relative;
+    top:50px;
+    left:550px;
+    text-shadow: 10px 10px 8px;
+    color:#FFFFFF;
+    font-style:italic;
+    font-family:fantasy;
+    padding:0;
+    margin:0;
+    }
+.four {
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-width: 2px;
+    height:176px;
+    width:260px;
+    padding:0;
+    margin:0;}
+.four2 {
+    z-index: 2;
+    position:relative;
+    top:-270px;
+    left:1400px;}
+.five {
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-width: 2px;
+    height:300px;
+    width:150px;
+    padding:0;
+    margin:0;}
+.five2 {
+    position:relative;
+    top:-130px;
+    left:900px;}
+.six {
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-width: 2px;
+    height:160px;
+    width:210px;
+    padding:0;
+    margin:0;}
+.six2 {
+    position:relative;
+    top:-180px;
+    left:0px;}
+.seven {
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-width: 2px;
+    height:250px;
+    width:150px;
+    padding:0;
+    margin:0;
+
+} 
+.seven2 {
+    z-index: 2;
+    position:relative;
+    top:-596px;
+    left:0px;   
+} 
+.eight {
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-width: 0px;
+    height:400px;
+    width:400px;
+    padding:0;
+    margin:0 ;
+} 
+
+.eight2 {
+    z-index: 1;
+    position:relative;
+    top:-800px;
+    left:75px;
+}
+.nine {
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-width: 2px;
+    height:250px;
+    width:210px;
+    padding:0;
+    margin:0;
+}
+.nine2 {
+    z-index: 2;
+    position:relative;
+    top:-1020px;
+    left:213px;
+}
+
+.ten {
+    color: #e6263f;
+    background-color: #FFFFFF;
+    width: 500px;
+    height:176px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px;
+    border-style: outset;
+    border-color: rgb(252, 252, 252);
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538473113849&di=3adb9a17d16f604bceb928b4038ba695&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D2643644981%2C3743385290%26fm%3D214%26gp%3D0.jpg");
+    background-position: center;
+    box-shadow: 5px 2px 4px rgb(217, 240, 14);
+    font-size: 20px;
+}
+.ten2 {
+    z-index: 1;
+    position: relative;
+    top: -1828px;
+    left: 888px;
+}
+.nb {
+    position: relative;
+    top:-1650px;
+    left:1150px;
+    font-size: 25px;
+}
+#wrap {
+    width:1800px;
+    height:950px;
+    margin:0 auto;
+    overflow:hidden;}     
+    
