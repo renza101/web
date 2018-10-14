@@ -1,0 +1,34 @@
+body {
+    background-image: url("http://a3.qpic.cn/psb?/bbcc9164-eddb-45a0-a92d-794e760bdefc/NupDxCcEqTUCmkM7h1Np*2ei1bUisAowGzSa78L9GKI!/c/dCIBAAAAAAAA&ek=1&kp=1&pt=0&bo=AASbAgAAAAARF70!&tl=1&vuin=1186323642&tm=1538830800&sce=60-2-2&rf=0-0");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.p1 {
+    visibility: hidden
+}
+#denglu {
+    visibility: visible;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 65%;
+    top: 20%;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border-style: inset;
+    border:2px;
+    border-color: black;
+
+}
+.biaodan {
+    height: 520px;
+    border-style: outset;
+}
+.input {
+    width: 125px;
+    height: 25px;
+}
+#span {
+    visibility: hidden;
+}

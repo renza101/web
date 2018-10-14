@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     }
-.one {
+.one {/*个人头像*/
     border-style:solid;
     border-color:#FFFFFF;
     border-width:2px;
@@ -16,8 +16,9 @@
     position:relative;
     top:95px;
     left:25px;
+    clear:both
 }
-.two {
+.two {/*个人简介*/
     font-size:20px;
     text-align:center;
     padding:0;
@@ -25,8 +26,9 @@
 .two2 {
     position:relative;
     top: -85px;
-    left:-575px;}  
-.three {
+    left:-575px;
+    clear:both}  
+.three {/*this is me*/
     font-size:80px;
     position:relative;
     top:50px;
@@ -34,11 +36,12 @@
     text-shadow: 10px 10px 8px;
     color:#FFFFFF;
     font-style:italic;
-    font-family:fantasy;
+    font-family: 'Courier New', Courier, monospace;
     padding:0;
     margin:0;
+    clear:both
     }
-.four {
+.four {/*感情经历*/
     border-style:solid;
     border-color:#FFFFFF;
     border-width: 2px;
@@ -50,8 +53,9 @@
     z-index: 2;
     position:relative;
     top:-270px;
-    left:1400px;}
-.five {
+    left:1400px;
+    clear:both}
+.five {/*荣誉奖项*/
     border-style:solid;
     border-color:#FFFFFF;
     border-width: 2px;
@@ -62,8 +66,9 @@
 .five2 {
     position:relative;
     top:-130px;
-    left:900px;}
-.six {
+    left:900px;
+    clear:both}
+.six {/*兴趣爱好*/
     border-style:solid;
     border-color:#FFFFFF;
     border-width: 2px;
@@ -74,8 +79,9 @@
 .six2 {
     position:relative;
     top:-180px;
-    left:0px;}
-.seven {
+    left:0px;
+    clear:both}
+.seven {/*篮球*/
     border-style:solid;
     border-color:#FFFFFF;
     border-width: 2px;
@@ -89,9 +95,10 @@
     z-index: 2;
     position:relative;
     top:-596px;
-    left:0px;   
+    left:0px;
+    clear:both   
 } 
-.eight {
+.eight {/*街舞*/
     border-style:solid;
     border-color:#FFFFFF;
     border-width: 0px;
@@ -106,12 +113,13 @@
     position:relative;
     top:-800px;
     left:75px;
+    clear:both
 }
-.nine {
+.nine {/*we*/
     border-style:solid;
     border-color:#FFFFFF;
     border-width: 2px;
-    height:250px;
+    height:210px;
     width:210px;
     padding:0;
     margin:0;
@@ -121,9 +129,10 @@
     position:relative;
     top:-1020px;
     left:213px;
+    clear:both
 }
 
-.ten {
+.ten {/*一段话*/
     color: #e6263f;
     background-color: #FFFFFF;
     width: 500px;
@@ -144,7 +153,7 @@
     top: -1828px;
     left: 888px;
 }
-.nb {
+.nb {/*奖项*/
     position: relative;
     top:-1650px;
     left:1150px;

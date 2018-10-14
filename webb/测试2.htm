@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    
+        <script>
+                function deng() {
+                  var myselect=document.getElementsByName("yonghuming");
+                  var a=myselect.selectedIndex ;
+                  
+                  if(a===0)
+                    {alert("yes")}
+                    else
+                    {alert("no")}
+                }   
+               </script> 
+               <body>
+
+        
+               <form id="denglu">
+                    <fieldset class="biaodan">
+                      <br/><legend>please sign in first:</legend><br/>
+                      user name<br/>
+                      <select name="yonghuming">
+                        <option value="1">you are</option>
+                        <option value="2">you aren't</option>
+                        <option value="3">you are welcome</option>
+                      </select><br/><br/><br/>
+                      <button onclick="deng()">log in</button>
+                    </fieldset>
+                </form>
+                </body>
+</html>

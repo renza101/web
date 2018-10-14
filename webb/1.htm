@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
+<script>
+  function deng() {
+    var a = document.denglu.yonghuming.value;
+        b = document.denglu.mima.value;
+    if(a==="1" && b==="4")
+     {span.style.visibility="visible"}
+     else
+     {alert("sorry")
+     span.style.visibility="hidden"}
+        }   
+   function changeStyle() {
+  var obj = document.getElementById("css");
+     obj.setAttribute("href","1-2.css");
+    }
+     </script> 
 <head>
-<style>
-  body {
-    background-image:url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538313386870&di=d87271f2c75cfe1e785bda9e26b865f2&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F18%2F01%2F13%2Ff771b00eb13a764d282ef24690a51671.jpg");
-    background-repeat:no-repeat;
-    background-position-x:center;
-    background-position-y: center;
-    background-color:azure}
+  <link rel="stylesheet" type="text/css" href="1.css" id="css">
+  <style>
   h1{
     text-align: center;
     font-size:100px;
@@ -18,18 +28,43 @@
     color:#ff0000;}
 </style>
 </head>
-<body>
+<body> 
 
 <h1><strong>Welcome To My Personal Homepage!</strong></h1>
-<pre>
+<form id="denglu" name="denglu" method="POST">
+  <fieldset class="biaodan">
+    <br/><legend>please sign in first:</legend><br/>
+    user name<br/>
+    <select name="yonghuming">
+      <option value="1">you are</option>
+      <option value="2">you aren't</option>
+    </select><br/><br/><br/>
+    pass word<br/>
+    <select name="mima">
+      <option value="3">handsome</option>
+      <option value="4">very handsome</option>
+    </select><br/><br/><br/>
+    <input type="button" onclick="deng()" value="log in" class="input"><span id="span">---------><a href="biaoge.htm">welome</a></span>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <label id="label"></label>
+      <script type="text/javascript">
+        setInterval("document.getElementById('label').innerHTML=new Date().toLocaleString()");
+      </script><br/><br/>
+  </fieldset>
+
+</form>
+<pre class="p1">
 
 
 
 
 
-
-<a href="biaoge.htm">
-
-GO!</a></pre>
+<button onclick="changeStyle()" class="button1">GO!</button>
+</pre>
 </body>
 </html>

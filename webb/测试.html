@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+        <script>
+                function deng() {
+                  var a=document.denglu.yonghuming.value ;
+                      b=document.denglu.mima.value ;
+                  if(a==="1"&&b==="4")
+                    {alert("yes")}
+                    else
+                    {alert("no")}
+                }   
+               </script> 
+               <body>
+
+        
+               <form id="denglu" name="denglu" method="POST">
+                    <fieldset class="biaodan">
+                      <br/><legend>please sign in first:</legend><br/>
+                      user name<br/>
+                      <select name="yonghuming">
+                        <option value="1">you are</option>
+                        <option value="2">you aren't</option>
+                        <option value="3">you are welcome</option>
+                      </select><br/><br/><br/>
+                      
+                      pass word<br/>
+                      <select name="mima">
+                        <option value="3">handsome</option>
+                        <option value="4">very handsome</option>
+                      </select>
+                      <input onclick="deng()" value="log in" type="button">
+                    </fieldset>
+                    </form>
+                    </body>
+</html>

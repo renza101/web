@@ -1,0 +1,16 @@
+body {
+    background-image:url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538313386870&di=d87271f2c75cfe1e785bda9e26b865f2&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F18%2F01%2F13%2Ff771b00eb13a764d282ef24690a51671.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+    background-color:azure;}
+#denglu {
+    visibility: hidden;
+}
+.button1 {
+    position: relative;
+    top: -100px;
+    left: 0%;
+    width: 100px;
+    height: 50px;
+}
